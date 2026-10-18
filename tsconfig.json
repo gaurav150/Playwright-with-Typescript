@@ -8,7 +8,11 @@
     "skipLibCheck": true,
     "types": ["node"],
     "noEmit": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
-  "include": ["tests/**/*.ts", "playwright.config.ts"]
+  "include": [
+    "tests/**/*.ts",
+    "utils/**/*.ts",
+    "playwright.config.ts"
+  ]
 }

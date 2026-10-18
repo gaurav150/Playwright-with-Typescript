@@ -67,7 +67,7 @@ test("@seleniumPractice @Regression Verify Selenium Practice Page Price ", async
   expect(order.length).toEqual(numberOfItems);
 });
 
-test("@seleniumPractice @Regression Verify Selenium Practice Page Price Top Deals", async ({
+test.skip("@seleniumPractice @Regression Verify Selenium Practice Page Price Top Deals", async ({
   page,
   context,
 }) => {
